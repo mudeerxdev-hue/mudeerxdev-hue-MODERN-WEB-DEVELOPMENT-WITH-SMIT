@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <style>
+        legend, h1 {
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Job Application Form</h1>
+    <form action="">
+        <fieldset id="1st-fieldset" title="Personal Information">
+            <legend>Personal Information</legend>
+            <label for="name">Full Name:</label>
+            <br>
+            <input type="text" id="name" placeholder="Enter your Name" required>
+            <br> <br>
+            <label for="email">Email Address:</label>
+            <br>
+            <input type="email" id="email" placeholder="Ener your Email" required>
+            <br> <br>
+            <label for="No">Phone No:</label>
+            <br>
+            <input type="text" id="No" placeholder="Enter your Phone No" required>
+            <br> <br>
+            <label for="website">Website or Portfolio:</label>
+            <br>
+            <input type="url" id="website" placeholder="web name">
+            <br> <br>
+            <label for="Date">Date of Birth:</label>
+            <br>
+            <input type="date" required>
+        </fieldset>
+
+        <br> <br>
+
+        <fieldset id="2nd-fieldset" title="JOB DETAIL">
+            <legend>Job Details</legend>
+            <label for="Job Position">Job Position:</label>
+            <select id="Job Position">
+                <option value="">Select Position</option>
+                <option value="">Frontend Developer</option>
+                <option value="">Backend Developer</option>
+                <option value="">UI/UX Designer</option>
+                <option value="">QA Engineer</option>
+                <br> <br>
+            </select>
+            <br> <br>
+            <label for="">Preferred Work Location:</label>
+            <br>
+            <input name="Preferred Work" type="radio">
+            <label for="">On-Site</label>
+            <input name="Preferred Work" type="radio">
+            <label for="">Remote</label>
+            <input name="Preferred Work" type="radio">
+            <label for="">Hybird</label>
+            <br> <br>
+
+            <input type="checkbox">
+            <label for="">HTML</label>
+            <br>
+            <input type="checkbox">
+            <label for="">CSS</label>
+            <br>
+            <input type="checkbox">
+            <label for="">JavaScript</label>
+            <br>
+            <input type="checkbox">
+            <label for="">React</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Node.js</label>
+            <br> <br>
+
+            <label for="">UPLOAD FILES <br> <input type="file" multiple accept="images"></label>
+            <br> <br>
+
+            <label for="About-Your-self">Write About Your self</label>
+            <br>
+            <textarea name="" id="About-Your-self" cols="30" rows="5" placeholder="Write Here"></textarea>
+            <br> <br>
+
+        </fieldset>
+        <br> <br>
+
+        <fieldset id="3rd-fieldset">
+            <legend>Extra Section</legend>
+            <label for="search">Search Your Favirate Tech Stack:</label>
+            <br>
+            <input type="search" id="search" placeholder="search here">
+            <br> <br>
+            <label for="passward">Passward:</label>
+            <br>
+            <input type="password" id="passward" placeholder="Enter your passward">
+            <br> <br>
+            <label for="Confirm-passward">Confirm Passward:</label>
+            <br>
+            <input type="password" id="Confirm-passward" placeholder="Confirm passward">
+            <br> <br>
+            <input type="submit" value="Submit">
+            <br>
+
+        </fieldset>
+
+
+
+    </form>
+
+</body>
+
+</html>
