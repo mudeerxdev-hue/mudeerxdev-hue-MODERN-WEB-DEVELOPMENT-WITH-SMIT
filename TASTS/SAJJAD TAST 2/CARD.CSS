@@ -1,0 +1,26 @@
+.card {
+  height: 470px;
+  width: 355px;
+  background-image: url("../../Images/mountain.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid black;
+  margin-left: 40%;
+}
+.card .heading {
+  text-align: center;
+}
+.card .content {
+  color: white;
+  padding: 25px;
+}
+.card .explore-btn {
+  font-size: 25px;
+  border-radius: 9px;
+  border: 1 px solid black;
+  padding: 4px 15px;
+  margin-bottom: 10px;
+  background-color: rgb(172, 172, 207);
+  color: white;
+}
