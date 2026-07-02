@@ -1,0 +1,25 @@
+.container {
+}
+.box {
+  /* border-width: 5px; */
+  /* border-style: dashed;
+  border-color: blue;
+  border: 3px dashed blue; */
+
+  border-top: 5px solid red;
+  border-right: 3px solid pink;
+  border-left: 4px solid bisque;
+  border-bottom: 5px solid blue;
+
+  /* outline: 1px solid black; */
+
+  /* padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 40px; */
+  /* padding: 10px 20px 30px 40px; */
+  /* padding: 20px 40px; */
+
+  /* max-width: 100px; */
+  /* min-width: 200px; */
+}
