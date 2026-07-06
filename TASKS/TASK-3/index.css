@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.navbar {
+  height: 20vh;
+  width: auto;
+  border: 2px solid white;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+.main > li {
+  list-style: none;
+  margin: 30px 55px;
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.h1 {
+  /* border: 2px solid black; */
+  margin-right: 10rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.h1 > h1 {
+  /* border: 2px solid black; */
+  margin-right: auto;
+  margin: 25px;
+}
+
+.contact {
+  /* border: 2px solid black; */
+  text-align: center;
+  justify-content: center;
+  /* margin-left: 5rem; */
+  padding: 10px 15px;
+  margin-top: 25px;
+  color: white;
+}
+
+.contact > p {
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.link {
+  color: white;
+}
+
+.home:active {
+  background-color: orange;
+  border: 1px solid white;
+}
+
+.home:hower {
+  background-color: red;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+.skills:active {
+  background-color: orange;
+  border: 1px solid white;
+}
+
+.skills:hower {
+  background-color: red;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+.project:active {
+  background-color: orange;
+  border: 1px solid white;
+}
+
+.project:hower {
+  background-color: red;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+.contact:active {
+  background-color: orange;
+  border: 1px solid white;
+}
+
+.contact:hower {
+  background-color: red;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+.home,
+.project,
+.skills,
+.contact {
+  color: white;
+}
+
+/* //////////////////////////////////////////////////////////////////// */
+
+.welcome {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 400;
+  font-size: 50px;
+  justify-content: center;
+  color: rgb(93, 167, 212);
+  margin-top: 50px;
+}
+.name {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 400;
+  font-size: 50px;
+  justify-content: center;
+  color: rgb(93, 167, 212);
+  margin-top: 50px;
+}
