@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #7b68ee;
+  height: 7vh;
+  padding-top: 1%;
+  color: white;
+}
+
+.product {
+  border: 1px solid red;
+  height: 20vh;
+  background-color: #ccc;
+}
+
+.product > ul {
+  display: flex;
+  column-gap: 7%;
+  margin-top: 2%;
+  text-align: center;
+}
+
+.product > ul > li {
+  list-style: none;
+}
+
+.product > ul > li > img {
+  height: 10vh;
+  width: 10vw;
+}
+
+.banner {
+  text-align: center;
+  background-color: #7b68ee;
+}
+
+.banner > img {
+  height: 65vh;
+  width: 95vw;
+  margin: 3% 1%;
+}
+
+.banner > .sales-section > h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.banner > .table {
+  border: 3px solid blueviolet;
+  text-align: start;
+  justify-content: center;
+  width: 100%;
+}
+
+.banner > .sales-section > .sales-table > th {
+  background-color: blueviolet;
+  border-color: blueviolet;
+}
+
+.banner > .table > table {
+  text-align: center;
+  margin: auto;
+  width: 75vw;
+}
+
+.banner > .table > tr,
+th {
+  background-color: rgb(186, 42, 211);
+  height: 10vh;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.banner > .table > tr,
+td {
+  background-color: #ccc;
+}
+
+.sales-section {
+  width: 85%;
+  margin: 40px auto;
+}
+
+.sales-section > h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.sales-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.sales-table > th {
+  background: #7b68ee;
+  color: black;
+  padding: 12px;
+  border: 1px solid #ccc;
+}
+
+.sales-table td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.sales-table del {
+  color: black;
+  margin-right: 5px;
+}
+
+.fashion-sales {
+  margin: 3% 2%;
+}
+
+.fashion-sales > h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.festival-sales {
+  margin: 3% 2%;
+}
+
+.festival-sales > h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.payment-option {
+  margin: 3% 2%;
+}
+
+.payment-option > h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.fashion-sales,
+.festival-sales,
+.payment-option {
+  color: #c4b7b7;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 15vh;
+  width: auto;
+}
+
+.footer > p {
+  padding-top: 3%;
+  font-size: 30px;
+}
