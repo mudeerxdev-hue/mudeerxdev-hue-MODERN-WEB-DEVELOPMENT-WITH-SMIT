@@ -42,13 +42,10 @@ a {
 }
 
 .contact {
-  /* border: 2px solid black; */
   text-align: center;
   justify-content: center;
-  /* margin-left: 5rem; */
   padding: 10px 15px;
-  margin-top: 25px;
-  color: white;
+  margin-top: 5px;
 }
 
 .contact > p {
